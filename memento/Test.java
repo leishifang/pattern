@@ -1,10 +1,12 @@
 package pattern.memento;
 
+import java.io.Serializable;
+
 /**
  * @author leishifang
  * @date 2019-07-11 15:24
  */
-public class Test {
+public class Test implements Serializable {
 
     public static void main(String[] args) {
         ICalculator calculator = new Calculator();
