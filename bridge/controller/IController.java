@@ -1,4 +1,4 @@
-package pattern.bridge;
+package pattern.bridge.controller;
 
 /**
  * @author leishifang

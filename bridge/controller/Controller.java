@@ -1,4 +1,6 @@
-package pattern.bridge;
+package pattern.bridge.controller;
+
+import pattern.bridge.light.ILight;
 
 /**
  * @author leishifang
