@@ -10,7 +10,7 @@ public class Test {
 
         customer.buy();
 
-        customer = new CustomerDecorator(customer);
-        ((CustomerDecorator) customer).pay();
+        CustomerDecorator customerDecorator = new CustomerDecorator(customer);
+        customerDecorator.pay();
     }
 }
